@@ -10,7 +10,13 @@
     <header>
         <h1>Welcome A101 Archery!</h1>
     </header>
-    <main>
+    
+    <!-- Live region for important updates -->
+    <div aria-live="polite" class="announcement">
+        <p>New classes available! Check course page for details. </p>
+    </div>
+   
+   <main id="main-content">
         <section>
              <h2>About A101 archery</h2>
              <p>A101 Archery is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.</p>
@@ -18,12 +24,13 @@
         
         <section>
             <p>On the next page you will see a breakdown of cost, as well as schedule and different options for lessons.</p>
-            <a href="about.html">Learn more about the courses we offer</a>
+            <a href="about.html" aria-label="View pricing and lesson options for A101 Archery courses">Learn more about the courses we offer</a>
+      </section>
     </main>
     
-    <footer>
+    <footer role="contentinfo" class="high-contrast">
         <p>&copy; 2025 Abbirielles website. All rights reserved.</p>
     </footer>
-    </body>
+</body>
 </html>
             
